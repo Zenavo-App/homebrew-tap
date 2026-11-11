@@ -2,28 +2,28 @@
 class Zenavo < Formula
   desc "Deploy and operate projects on your own servers with Zenavo"
   homepage "https://zenavo.app"
-  version "0.2.0"
+  version "0.2.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Zenavo-App/zenavo-cli/releases/download/v0.2.0/zenavo_darwin_arm64"
-      sha256 "e73f425ab997dd5e4079b7cb87f99e056de4436b8a18bad81fefc5178d5c3aef"
+      url "https://github.com/Zenavo-App/zenavo-cli/releases/download/v0.2.1/zenavo_darwin_arm64"
+      sha256 "0fcab52a829f29e9f121d66a40fd0029842ec490cebe0c8897372ce4e14ad48e"
     end
     on_intel do
-      url "https://github.com/Zenavo-App/zenavo-cli/releases/download/v0.2.0/zenavo_darwin_amd64"
-      sha256 "4400352c8855193bac001065b8d9cd27ef12cf7295e12f20209d005fc46d2df9"
+      url "https://github.com/Zenavo-App/zenavo-cli/releases/download/v0.2.1/zenavo_darwin_amd64"
+      sha256 "56cd8ac6b1c626ba5f059f79ba7d8afffb818166b622dfde6fab7b1cef972be2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Zenavo-App/zenavo-cli/releases/download/v0.2.0/zenavo_linux_arm64"
-      sha256 "43a4a329e103759f09e0232a36894cc66d5b5ec883eecdcf0193fc2e8dd9cb97"
+      url "https://github.com/Zenavo-App/zenavo-cli/releases/download/v0.2.1/zenavo_linux_arm64"
+      sha256 "929cd501945d044b04c517c4a17d5fae1d8841626690af72991c29de483f7a4f"
     end
     on_intel do
-      url "https://github.com/Zenavo-App/zenavo-cli/releases/download/v0.2.0/zenavo_linux_amd64"
-      sha256 "4e2cb23968ac361c3dda86dd732dfca72741c0bceed3a3225bfcdae8ff848005"
+      url "https://github.com/Zenavo-App/zenavo-cli/releases/download/v0.2.1/zenavo_linux_amd64"
+      sha256 "a3791feaf3c8736444a41cc9e49b9550b5824d6f4671e66b5a93f21bdcc8342a"
     end
   end
 
